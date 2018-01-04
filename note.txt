@@ -1,0 +1,13 @@
+// webpack
+1. npm install webpack -g
+2. webpack ./app.js bundle.js: create bundle.js
+3. webpack
+4. npm install webpack-dev-server -g
+5. Run webpack: webpack-dev-server
+---> run at localhost:8080/webpack-dev-server/
+6. Minify: webpack -p
+7. npm install strip-loader --save-dev
+8. run on production
+	- webpack --config webpack-production.config.js -p
+	- Install http: npm install http-server -g
+	- http-server
